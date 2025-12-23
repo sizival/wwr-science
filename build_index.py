@@ -259,7 +259,7 @@ def build_file_tree(base_dir: Path) -> dict[str, dict[str, list[Path]]]:
                 section = parts[0]
                 subsection = parts[1]
                 tree[section][subsection].append(file)
-
+    
     return tree
 
 
